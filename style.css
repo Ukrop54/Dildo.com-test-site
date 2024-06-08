@@ -1,0 +1,224 @@
+body {
+  /* background-image: url("bgdildo.png"); */
+  background-color: brown;
+  background-size: cover;
+  background-attachment: fixed;
+  transition: background-color 3s ease; /* Добавляем плавный переход для изменения цвета фона */
+  background-color: #fff; /* Начальный цвет фона */
+}
+
+.animation-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  z-index: 999;
+}
+
+/* font-family: "Caveat", cursive; */
+/* font-family: "Xanh Mono", monospace; */
+/* font-family: "Marck Script", cursive; */
+/* font-family: "Jacquarda Bastarda 9", serif; */
+/* font-family: "Great Vibes", cursive; */
+/* font-family: "Dancing Script", cursive; */
+/* font-family: "Bad Script", cursive; */
+
+.barabantitle {
+  line-height: 70px;
+  letter-spacing: 5px;
+  font-size: 90px;
+}
+
+.card-stl {
+  width: 200px;
+  filter: drop-shadow(1px 1px 4px blue);
+}
+
+.card-stl:hover {
+  filter: drop-shadow(1px 1px 4px rgb(255, 153, 0));
+}
+
+.card_img_stl {
+  height: 200px;
+  width: 100px;
+}
+
+.bardiv {
+  background-color: white;
+}
+
+.kryti {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  letter-spacing: 5px;
+}
+.baraban {
+  font-family: "Russo One", sans-serif;
+  letter-spacing: 3px;
+  font-style: italic;
+  color: rgb(0, 38, 255);
+  /* font-family: "Ruslan Display", sans-serif; */
+}
+
+.krytiBTN {
+  background-color: transparent; /* прозорий фон */
+  border: 2px solid black; /* чорна рамка */
+  border-radius: 30px; /* закруглені кути */
+  color: black; /* чорний колір тексту */
+  padding: 10px 90px; /* відступи */
+  text-align: center;
+  text-decoration: none; /* відсутність підкреслення */
+  display: inline-block; /* блочно-інлайновий елемент */
+  transition: all 0.3s ease;
+  margin: 0 auto;
+  display: block;
+}
+
+.krytiBTN:hover {
+  border: 2px solid rgb(0, 38, 255);
+  color: rgb(0, 38, 255);
+  box-shadow: 1px 1px 4px rgb(0, 0, 0);
+}
+
+.cartochki {
+  display: flex;
+  justify-content: space-around;
+}
+
+.big-word {
+  font-size: 24px; /* Задает размер первого слова */
+}
+
+.two-words {
+  font-size: inherit; /* Наследует размер первого слова */
+  display: block; /* Размещает каждое следующее слово на новой строке */
+}
+
+.progress {
+  width: 100%;
+  height: 100px; /* Встановіть висоту лінії прогресу */
+  background-color: #f0f0f0; /* Колір фону лінії прогресу */
+  box-shadow: 1px 1px 4px blue;
+  font-family: cursive;
+}
+
+.progress-bar {
+  width: calc(20% - 1px);
+  height: 100%;
+  border-right: 1px solid white;
+  background-color: blue;
+}
+.progress-segment {
+  width: calc(
+    20% - 1px
+  ); /* Ширина каждого сегмента (вычисляемая как 1/5 ширины прогресс-бара с учетом разделительных линий) */
+  height: 100%; /* Высота сегмента */
+  background-color: #ffffff; /* Цвет сегмента */
+  float: left; /* Размещение сегментов в одну линию */
+  border-right: 1px solid #0000004b; /* Разделительные линии */
+}
+.progress-finish {
+  width: calc(
+    20% - 1px
+  ); /* Ширина каждого сегмента (вычисляемая как 1/5 ширины прогресс-бара с учетом разделительных линий) */
+  height: 100%; /* Высота сегмента */
+  background-color: rgb(229, 255, 0); /* Цвет сегмента */
+  float: right; /* Размещение сегментов в одну линию */
+  border-right: 1px solid #ccc;
+}
+
+.progress-bar:hover {
+  background-color: rgb(0, 0, 168);
+  color: yellow;
+}
+.progress-finish:hover {
+  background-color: orange;
+  color: rgb(17, 0, 170);
+}
+.progress-segment:hover {
+  background-color: rgb(204, 243, 243);
+  color: red;
+}
+
+.progress-titles p {
+  display: inline;
+}
+
+.bait {
+  font-size: 20px;
+}
+
+li {
+  display: inline; /* Розміщення пунктів меню в один ряд */
+  margin-right: 20px; /* Відступи між пунктами */
+}
+
+.boxBG {
+  background-image: url(bgdildo.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+}
+
+.navbarstyle a {
+  color: #000000; /* Колір тексту посилань */
+  text-decoration: none; /* Видалення підкреслення */
+  font-family: "Xanh Mono", monospace;
+  font-weight: 400;
+  font-size: 20px;
+  font-style: italic;
+}
+
+.clientiText {
+  font-size: 65px;
+  color: white;
+  /* line-height: 70px; */
+  letter-spacing: 3px;
+  font-family: "Russo One", sans-serif;
+}
+
+.bank_karta {
+  background-color: white;
+  border-radius: 10px;
+}
+
+.bank_karta_textstyle {
+  font-size: 19px;
+}
+
+.submit {
+  border: 1px solid blue; /* Товщина та колір границі */
+  background-color: white; /* Колір фону кнопки */
+  color: black; /* Колір тексту кнопки */
+  cursor: pointer; /* Зміна вигляду курсора при наведенні */
+}
+
+/* --------------------------------
+------------REGISTER---------------
+----------------------------------- */
+
+/* ахуеть переход, да??? */
+
+#tg input {
+  border: 1px solid blue;
+}
+#tg .col p {
+  font-family: monospace;
+}
+#tg input[type="text"]:hover,
+input[type="password"]:hover,
+input[type="number"]:hover {
+  box-shadow: 1px 1px 4px rgba(0, 0, 255, 0.623);
+}
+#tg button:hover {
+  box-shadow: 1px 1px 4px yellow;
+  border: 1px solid yellow;
+}
+
+.bank_karta_textstyle {
+  background-color: #fff;
+  color: black;
+  transition: background-color 3s ease; /* Добавляем плавный переход для изменения цвета фона */
+  transition: color 3s ease; /* Добавляем плавный переход для изменения цвета фона */
+}
