@@ -1,0 +1,40 @@
+.textinput {
+  width: 100%;
+  height: 250px;
+}
+
+.zagolovokINP {
+  width: 100%;
+  height: 50px;
+  text-align: center;
+}
+
+.optionsSelect {
+  width: 100%;
+  height: 50px;
+}
+
+.otpravitel {
+  width: 100%;
+  height: 50px;
+  font-size: 15px;
+  text-align: center;
+}
+
+.submitBTN {
+  width: 100%;
+  height: 50px;
+}
+
+.zagolovokCHECK {
+  width: 25px;
+  height: 25px;
+}
+
+.green {
+  border: 1px solid lightgreen;
+}
+
+.red {
+  border: 1px solid red;
+}
